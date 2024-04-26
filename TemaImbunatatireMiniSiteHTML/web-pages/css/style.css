@@ -1,0 +1,15 @@
+body {
+    width: 100%;
+}
+
+#nav {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 10%;
+}
+
+#section {
+    display: inline-block;
+    width: 75%;
+    padding: 2%;
+}
