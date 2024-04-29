@@ -1,4 +1,7 @@
+/*Style for ALL html page*/
+
 body {
+    font-family: Arial, Helvetica, sans-serif;
     width: 100%;
 }
 
@@ -6,10 +9,37 @@ body {
     display: inline-block;
     vertical-align: top;
     padding-top: 10%;
+    font-size: 18px;
 }
 
 #section {
     display: inline-block;
     width: 75%;
     padding: 2%;
+}
+
+/*Style for html page LITERARY-WORK*/
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+}
+
+th {
+    font-size: 18px;
+    padding: 6px;
+}
+
+td {
+    padding: 8px;
+}
+
+th,
+td {
+    border: solid 1px #e6e6e6;
+}
+
+.item-style {
+    font-style: italic;
 }
